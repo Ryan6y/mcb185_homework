@@ -1,0 +1,127 @@
+Thu Jan  9 22:47:10 PST 2025
+ProgramFiles(x86)=C:\Program Files (x86)
+!::=::\
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+SHELL=/bin/bash
+NUMBER_OF_PROCESSORS=20
+FPS_BROWSER_USER_PROFILE_STRING=Default
+PROCESSOR_LEVEL=6
+TERM_PROGRAM_VERSION=3.7.7
+USERDOMAIN_ROAMINGPROFILE=大火箭
+HOSTNAME=����
+PROGRAMFILES=C:\Program Files
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+configsetroot=C:\Windows\ConfigSetRoot
+OS=Windows_NT
+HOMEDRIVE=C:
+USERDOMAIN=大火箭
+PWD=/home/ryany/Code/mcb185_homework
+USERPROFILE=C:\Users\ryany
+PRINTER=Canon MG3600 series Printer WS
+TZ=America/Los_Angeles
+EFC_10528=1
+ALLUSERSPROFILE=C:\ProgramData
+ORIGINAL_PATH=/cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Windows/System32/OpenSSH:/cygdrive/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/cygdrive/g/steamlibrary/steamapps/common/iracing/d3dgear:/cygdrive/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64:/cygdrive/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86:/cygdrive/c/Program Files (x86)/Common Files/Pulse Secure/TNC Client Plugin:/cygdrive/c/Program Files/dotnet:/cygdrive/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/cygdrive/c/Users/ryany/AppData/Local/Microsoft/WindowsApps
+CommonProgramW6432=C:\Program Files\Common Files
+HOME=/home/ryany
+USERNAME=ryany
+OneDrive=C:\Users\ryany\OneDrive
+COMSPEC=C:\Windows\system32\cmd.exe
+APPDATA=C:\Users\ryany\AppData\Roaming
+SYSTEMROOT=C:\Windows
+LOCALAPPDATA=C:\Users\ryany\AppData\Local
+COMPUTERNAME=大火箭
+INFOPATH=/usr/local/info:/usr/share/info:/usr/info
+IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAt1gcQS2+7E2T1E1hhJxQqQQAAAACAAAAAAAQZgAAAAEAACAAAAD5kM+JvSgJc6Qxcc2NMF4BfDAY0OTorbaq0pJAROn7MQAAAAAOgAAAAAIAACAAAABgfQoICPZ+P4M3QLPaaztiZ2q+Z8pWIcpiGSsAxedPemAAAADa1bO4Y/f2beiBm9JigKOYrB5EV438w/m0rmyFNbJ8x2e6ShVB1JqezftVVyEstkVCF67tW+FeIRAJPNQWTr1o8GBKwsDIO5swUU637eFlFrtU7U3A+n9/abzA2bVWYQ1AAAAAmHhJ8kLiv2ldATfYfAPZHQWLUyAZSncXd+8YjuTJ/IyM39nAEwX77CUxo/lyjdmmWYSZYDwG5TXzVUuZZKKTSg==
+TERM=xterm
+LOGONSERVER=\\大火箭
+ZES_ENABLE_SYSMAN=1
+SIMHUB_INSTALL_PATH=G:\SimHub\
+USER=ryany
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+D3DGEARPATH=g:\steamlibrary\steamapps\common\iracing\d3dgear
+TEMP=/tmp
+SHLVL=2
+PROCESSOR_REVISION=ba02
+DriverData=C:\Windows\System32\Drivers\DriverData
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+LC_CTYPE=zh_CN.UTF-8
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 186 Stepping 2, GenuineIntel
+SESSIONNAME=Console
+HOMEPATH=\Users\ryany
+TMP=/tmp
+PATH=/usr/local/bin:/usr/bin:/cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Windows/System32/OpenSSH:/cygdrive/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/cygdrive/g/steamlibrary/steamapps/common/iracing/d3dgear:/cygdrive/c/Program Files (x86)/Pulse Secure/VC142.CRT/X64:/cygdrive/c/Program Files (x86)/Pulse Secure/VC142.CRT/X86:/cygdrive/c/Program Files (x86)/Common Files/Pulse Secure/TNC Client Plugin:/cygdrive/c/Program Files/dotnet:/cygdrive/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/cygdrive/c/Users/ryany/AppData/Local/Microsoft/WindowsApps
+ProgramW6432=C:\Program Files
+PROFILEREAD=true
+MINTTY_SHORTCUT=/cygdrive/c/Users/Public/Desktop/Cygwin64 Terminal.lnk
+WINDIR=C:\Windows
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+PROCESSOR_ARCHITECTURE=AMD64
+PUBLIC=C:\Users\Public
+SYSTEMDRIVE=C:
+EXECIGNORE=*.dll
+OLDPWD=/home/ryany/Code
+TERM_PROGRAM=mintty
+ProgramData=C:\ProgramData
+_=/usr/bin/printenv
+Python 3.9.16
+/home/ryany/Code:
+123.txt
+MCB185
+mcb185_homework
+
+/home/ryany/Code/MCB185:
+LICENSE
+README.md
+course
+data
+ref
+src
+
+/home/ryany/Code/MCB185/course:
+participation.md
+unit0-unix.md
+unit1-calculations.md
+unit2-iteration.md
+unit3-containers.md
+unit4-sequences.md
+unit5-words.md
+unit6-data.md
+unit7-executables.md
+
+/home/ryany/Code/MCB185/data:
+A.thaliana.fa.gz
+A.thaliana.gff.gz
+C.elegans.fa.gz
+C.elegans.gff.gz
+C.elegans.vcf.gz
+C.elegans_transcripts.fa.gz
+D.melanogaster.fa.gz
+D.melanogaster.gff.gz
+GCF_000005845.2_ASM584v2_genomic.fna.gz
+GCF_000005845.2_ASM584v2_genomic.gbff.gz
+GCF_000005845.2_ASM584v2_genomic.gff.gz
+GCF_000005845.2_ASM584v2_protein.faa.gz
+README.md
+colors_basic.tsv
+colors_extended.tsv
+dictionary.gz
+jaspar2024_core.transfac.gz
+primers.csv
+
+/home/ryany/Code/MCB185/ref:
+LINUX_REFERENCE.md
+PYTHON_COOKBOOK.md
+PYTHON_REFERENCE.md
+
+/home/ryany/Code/MCB185/src:
+mcb185.py
+
+/home/ryany/Code/mcb185_homework:
+00hello.sh
+01hello.py
+02status.sh
+03report.txt
+README.md
+ecoli.gff.gz
+participation.md
