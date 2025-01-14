@@ -1,3 +1,7 @@
+Unit 0 Unix
+gunzip...
+cut,grep, 
+
 Unit 1 Calculation
 integer divide //	remainder %
 

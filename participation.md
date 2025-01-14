@@ -33,7 +33,11 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Get Linux laptop ready
 	+ Get the repositery ready
 	+ Introduce myself to a classmate and added wechat
+	+ Total 4 points
 - Week 2
+	+ Attended class on Tuesday
+	+ Demo in fornt of class
+	+ 
 - Week 3
 - Week 4
 - Week 5
