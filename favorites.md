@@ -3,7 +3,10 @@
 + Sim Racing
 + Track days
 ## Movies
-some kind of movies
++ some kind of movies
 ## TV
-Formula One
++ Formula One
+## Games
++ iRacing
++ Rainbow Six: Siege </strong>
 
