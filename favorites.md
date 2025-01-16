@@ -1,3 +1,9 @@
-# heading 1
-## heading 2
-### heading 3
+# Favorites things on my mind
+## Activity
+Sim Racing
+Track days
+## Movies
+some kind of movies
+## TV
+Formula One
+
