@@ -7,6 +7,6 @@
 ## TV
 + Formula One
 ## Games
-+ iRacing
++ <code>iRacing</code>
 + <strong>Rainbow Six: Siege</strong>
 
