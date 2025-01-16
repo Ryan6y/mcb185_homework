@@ -8,5 +8,5 @@
 + Formula One
 ## Games
 + iRacing
-+ Rainbow Six: Siege</strong>
++ <strong>Rainbow Six: Siege</strong>
 
