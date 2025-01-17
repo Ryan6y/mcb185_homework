@@ -39,6 +39,7 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Demo in fornt of class
 	+ Attended class on Thursday
 	+ I met jewel on Thursday
+	+ we finished the assesment together
 - Week 3
 - Week 4
 - Week 5
