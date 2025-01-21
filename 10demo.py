@@ -11,4 +11,8 @@ a = 2
 b = 2
 if a == b:
 	print('a equals b')
-	
+	print(a, b)
+
+c = 3
+d = 4
+
