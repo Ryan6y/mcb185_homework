@@ -1,6 +1,6 @@
 Unit 0 Unix
 gunzip...
-cut,grep, 
+cut,grep, []
 
 Unit 1 Calculation
 integer divide //	remainder %
@@ -9,5 +9,3 @@ abs(x) |x|	pow(x,y)  x^y	round(x, ndigits=3)
 
 math.ceil(x) up	math.floor(x) down	sqrt=square root
 math.factorial(n) n! inf=infinity
-
-gougu=pythagoras

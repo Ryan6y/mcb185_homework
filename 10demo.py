@@ -9,6 +9,7 @@ print(s, type(s))
 
 a = 0.3
 b = 0.1 * 3
+print (a, b)
 if   a < b: print('a < b')
 elif a > b: print('a > b')
 else:       print('a == b')
