@@ -41,6 +41,7 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ I met jewel on Thursday
 	+ we finished the assesment together
 - Week 3
+	+ Attended class on Tuesday
 - Week 4
 - Week 5
 - Week 6
