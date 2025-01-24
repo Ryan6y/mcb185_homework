@@ -1,3 +1,5 @@
+# 11oligo.py by Xiaoran Yu
+
 def tm(a, c, g, t):
   length = a + c + g + t
 	
