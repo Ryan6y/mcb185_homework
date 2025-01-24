@@ -27,4 +27,10 @@ print (circle_area(r))
 print (rectangle_area(w, h))
 print (triangle_area(w, h))
 
-
+def max3(a, b, c):
+	if a > b > c: return a
+	elif a < b < c: return c
+	else : return b
+print(max3(1,2,3))
+print(max3(3,2,1))
+print(max3(5,9,2))
