@@ -20,7 +20,7 @@ print(vp(9))
 print(vp(0.345))
 print(vp(-0.1))
 
-#third question
+#Third question
 def pos2rf(a):
     if a % 3 == 1:
     	return 'Reading Frame 1'
