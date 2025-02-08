@@ -47,6 +47,9 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Met Reese in class
 	+ Work together for homework
 - Week 4
+	+ Attended class on Tuesday
+	+ Attended class on Thursday
+	+ 
 - Week 5
 - Week 6
 - Week 7
