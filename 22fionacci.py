@@ -1,5 +1,9 @@
-a, b = 0, 1
+a = 0
+b = 1
+print(a)
+print(b)
 
-for a in range(100):
-    print(a, end=" ")
-    a,b = b, a + b
+for int in range(2, 10):
+    c = a + b
+    print(c)
+    a, b = b, c
