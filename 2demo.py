@@ -1,4 +1,2 @@
-basket = 'milk', 'eggs', 'bread'
-for thing in basket:
-	print(thing)
-	
+for int in range(1,6):
+    print('hello')
