@@ -1,19 +1,10 @@
-i = 51
-
-while i >= 11:
-    i = i - 2
-    if i % 2 == 0:
-        print(i)
-    elif i % 3 == 0:
-        print(i)
-    elif i % 5 == 0:
-        print(i)
-    elif i % 7 == 0:
-        print(i)
-    else:
+for i in range(51, 0, -2):
+    is_prime = True  
+    for den in range(2, i // 2 + 1):
+        if i % den == 0:
+            is_prime = False 
+            break
+    if is_prime and i > 1:  
         print(f"{i}*")
-print("7*")
-print("5*")
-print("3*")
-print("1*")
-    
+    else:
+        print(i)
