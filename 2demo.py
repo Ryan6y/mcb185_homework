@@ -7,7 +7,7 @@ def dis(x1, y1, x2, y2):
 inside = 0
 outside = 0
 
-for i in range(20000000):
+for i in range(100000000):
     x = random.random()
     y = random.random()
     d = dis(0, 0, x, y)
