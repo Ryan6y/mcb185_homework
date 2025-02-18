@@ -1,10 +1,11 @@
+def its_prime(n):
+    for x in range(2, n, +1):
+        if n % x == 0:
+            return False
+    return True
+
 for i in range(51, 0, -2):
-    is_prime = True  
-    for den in range(2, i // 2 + 1):
-        if i % den == 0:
-            is_prime = False 
-    
-    if is_prime and i > 1:  
-        print(f"{i}*")
+    if its_prime(i):
+        print(f'{i}*')
     else:
         print(i)
