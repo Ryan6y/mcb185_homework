@@ -1,10 +1,20 @@
 import random
 
-things = ['list', 'list']
+shared = 0
+trials = 1
+days = 365
+students = 23
 
-things.append('scarf')
+calender = []
+for i in range(days):
+    calender.append(0)
 
-print(things)
+for i in range(students):
+    bday = random.randint(0, days)
+    calender[bday] += 1
 
-#index
-print(things[0:3:2])
+for i in range(calender):
+    if calender[bday] > 1 : print('found')
+print()
+
+print(f"{shared/trials*100}"'%')
