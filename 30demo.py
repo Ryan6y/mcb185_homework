@@ -1,20 +1,20 @@
 import random
+import sys
 
-shared = 0
-trials = 1
-days = 365
-students = 23
+trials = int(sys.argv[1])
+days = int(sys.argv[2])
+people = int(sys.argv[3])
 
-calender = []
-for i in range(days):
-    calender.append(0)
+matches = 0
 
-for i in range(students):
-    bday = random.randint(0, days)
-    calender[bday] += 1
-
-for i in range(calender):
-    if calender[bday] > 1 : print('found')
-print()
-
-print(f"{shared/trials*100}"'%')
+for _ in range(trials):
+    birthdays = []
+    for _ in range(people):
+        birthday = random.randint(0, days - 1)
+        birthdays.append(birthday)
+    if len(birthdays) != len(set(birthdays)):
+        matches += 1
+        print(f"{len(birthdays)}")
+        print(f"{len(set(birthdays))}")
+probability = matches / trials
+print(f"Probability of at least two people sharing a birthday: {probability:.4f}")
