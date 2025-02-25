@@ -16,3 +16,11 @@ nts.sort()
 print(nts)
 nts.sort(reverse=True)
 print(nts)
+
+import sys
+print(sys.argv)
+
+
+i = int('42')
+x = float('0.61803')
+print(i * x)
