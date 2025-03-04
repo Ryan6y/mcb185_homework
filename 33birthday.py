@@ -2,8 +2,8 @@ import random
 import sys
 
 trials = int(sys.argv[1])
-days = int(sys.argv[2])
-student = int(sys.argv[3])
+days = 365
+student = int(sys.argv[2])
 
 def birthday_simulation(trials, days, students):
     shared_count = 0
