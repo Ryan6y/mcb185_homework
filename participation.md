@@ -40,30 +40,41 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Attended class on Thursday
 	+ I met jewel on Thursday
 	+ we finished the assesment together
+	+ Total 5 poins
 - Week 3
 	+ Attended class on Tuesday
 	+ Attended class on Thursday
 	+ Demo in front of class
 	+ Met Reese in class
 	+ Work together for homework
+	+ Total 5 points
 - Week 4
 	+ Attended class on Tuesday
 	+ Attended class on Thursday
 	+ Demo in front of class
+	+ Total 3 Points
 - Week 5
 	+ Attended class on Tuesday
 	+ Attended class on Thursday
 	+ Demo in front of class
+	+ Total 3 points
 - Week 6
 	+ Attended class on Tuesday
 	+ Attended class on Thursday
+	+ Total 2 points
 - Week 7
 	+ Attended class on Tuesday
 	+ Attended class on Thursday
+	+ Total 2 points
 - Week 8
 	+ Attended class on Tuesday
 	+ Attended class on Thursday
+	+ Total 2 points
 - Week 9
 	+ Attended class on Tuesday
 	+ Attended class on Thursday
+	+ Total 2 points
 - Week 10
+	+ Attended class on Tuesday
+	+ Attended class on Thursday
+	+ Total 2 points
