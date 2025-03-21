@@ -17,3 +17,4 @@ for defline, seq in mcb185.read_fasta(sys.argv[1]):
         else:           N += 1
     print(name, A/len(seq), C/len(seq), G/len(seq), T/len(seq), N/len(seq))
 
+ 

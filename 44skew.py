@@ -1,17 +1,15 @@
 import sys
-import gzip
+import sequence
+import mcb185
 
 g = 0
 c = 0
-w = 5000 #windowsize
+w = int(sys.argv[2])
 
-with gzip.open(sys.argv[1],'rt') as fp:
-    seq = ''.join(line.strip() for line in fp)
-
-#first window
-initial_gc=seq[:w]
-g = initial_gc.upper().count('G')
-c = initial_gc.upper().count('C')
+for defline, seq in mcb185.read_fasta(sys.argv[1]):
+    s = seq[:w]
+g += s.count('G')
+c += s.count('C')
 
 for i in range(len(seq) - w + 1):
     base_out = seq[i - 1]
@@ -25,4 +23,6 @@ for i in range(len(seq) - w + 1):
     elif base_out == 'C':
         c -= 1
 
-print(i, f'skew = {(g - c) / (g + c)}', g, c)
+skew = (g - c) / (g + c)
+
+print(i,g,c, skew)
