@@ -23,6 +23,6 @@ for i in range(len(seq) - w + 1):
     elif base_out == 'C':
         c -= 1
 
-skew = (g - c) / (g + c)
+    skew = (g - c) / (g + c)
 
-print(i,g,c, skew)
+    print(i,g,c, skew)

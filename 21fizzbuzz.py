@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 #21fizzbuzz.py by Xiaoran Yu
 
 for i in range(1, 101):
