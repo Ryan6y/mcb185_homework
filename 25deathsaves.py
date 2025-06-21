@@ -1,32 +1,36 @@
 import random
 
-rounds = 10
-fail = 0
-suc = 0
+rounds = 10000
 die = 0
-stabilize = 0
-revived = 0
-
+stable = 0
+revive = 0
 
 for i in range(rounds):
-    for i in range(3):
-        a = random.randint(0, 20)
-        if a < 10:
-            fail += 1
-        elif a >= 10:
-            suc += 1
+    f = 0
+    s = 0
+    rev = False
+
+    for j in range(3):
+        a = random.randint(1, 20)
+        if a == 20:
+            revive += 1
+            rev = True
+            break
         elif a == 1:
-            fail += 2
-        elif a == 20:
-            suc += 5
+            f += 2
+        elif a < 10:
+            f += 1
+        else:
+            s += 1
+        if f >= 3:
+            die += 1
+            break
+        elif s >= 3:
+            stable += 1
+            break
 
-    if fail == 3:
-        die += 1
-    elif suc == 3:
-        stabilize += 1
-    elif suc >= 3:
-        revived += 1
+total = (die + stable + revive)
 
-total = (die + stabilize + revived)
-print(die/total, stabilize/total, revived/total)
-    
+print(die/total)
+print(stable/total)
+print(revive/total)
