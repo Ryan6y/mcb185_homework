@@ -1,32 +1,32 @@
 import random
 
-def ds():
-    success = 0
-    failure = 0
+rounds = 10
+fail = 0
+suc = 0
+die = 0
+stabilize = 0
+revived = 0
 
-    while success < 3 and failure < 3: 
-        roll = random.randint(1, 21)
-        if roll == 20:
-            return "revived"
-        elif roll <= 10:
-            failure += 1
-        elif roll == 1:
-            failure += 2
-        elif roll > 10:
-            success += 1
 
-    if success >= 3:
-        return "stabilized"
-    elif failure >= 3:
-        return "died"
+for i in range(rounds):
+    for i in range(3):
+        a = random.randint(0, 20)
+        if a < 10:
+            fail += 1
+        elif a >= 10:
+            suc += 1
+        elif a == 1:
+            fail += 2
+        elif a == 20:
+            suc += 5
+
+    if fail == 3:
+        die += 1
+    elif suc == 3:
+        stabilize += 1
+    elif suc >= 3:
+        revived += 1
+
+total = (die + stabilize + revived)
+print(die/total, stabilize/total, revived/total)
     
-result = ds()
-
-trials = 1000000
-results = {"died": 0, "stabilized": 0, "revived": 0}
-
-for _ in range(trials):
-    results[ds()] += 1
-
-for outcome in ["died", "stabilized", "revived"]:
-    print(f"{results[outcome] / trials * 100:.2f}%")
