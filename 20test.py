@@ -26,7 +26,7 @@ def pos2rf(a):
     	return 'Reading Frame 1'
     if a % 3 == 2:
     	return 'Reading Frame 2'
-    if a % 3 == 0
+    if a % 3 == 0:
     	return 'Reading Frame 3'
 
 print(pos2rf(1))
