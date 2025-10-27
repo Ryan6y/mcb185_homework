@@ -2,8 +2,11 @@
 
 import sys
 
-a = int(sys.argv[1])
+n = int(sys.argv[1])
 
-b = a * 2
+def facto(n):
+    for den in range(2, n // 2 + 1):
+        if n % den == 0: return False
+    return True
 
-print(b)
+print(facto(n))
